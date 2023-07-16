@@ -1,6 +1,7 @@
 const form = document.getElementById('form');
 
 form.addEventListener('submit', function(event) {
+    //Evita que a página carregue depois de apertar o botão
     event.preventDefault();
 
     const peso = document.getElementById('peso').value.replace(',', '.');

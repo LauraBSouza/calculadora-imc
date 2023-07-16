@@ -13,7 +13,7 @@ body {
     justify-content: center;
     width: 100%;
     height: 100vh;
-    background-image: url('../images/gym-background.jpg');
+    background-image: url('../images/gym-background.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -95,10 +95,10 @@ body {
     padding: 0 0.5rem;   
 }
 
-/* .input-field input::-webkit-outer-spin-button,
+.input-field input::-webkit-outer-spin-button,
 .input-field input::-webkit-inner-spin-button {
     appearance: none;
-} */
+}
 
 .input-field input:focus {
     outline: none;
@@ -173,6 +173,10 @@ body {
 
 
 @media screen and (max-width: 500px) {
+    #body {
+        background-image: url('../images/gym-background-mobile.webp');
+    }
+
     #container {
         width: 100%;
         height: 100%;
